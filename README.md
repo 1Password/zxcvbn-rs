@@ -6,7 +6,9 @@
 
 ## Overview
 
-This library is a Rust port of Dropbox's `zxcvbn` Javascript library. The following description is borrowed from their Readme:
+This library is a Rust port of Dropbox's `zxcvbn` Javascript library. This is a fork from of shssoichiro's [orignal work](https://github.com/shssoichiro/zxcvbn-rs), with [added support for wasm32 environments](https://github.com/shssoichiro/zxcvbn-rs/pull/38).
+
+The following description is borrowed from their Readme:
 
 `zxcvbn` is a password strength estimator inspired by password crackers. Through pattern matching and conservative estimation, it recognizes and weighs 30k common passwords, common names and surnames according to US census data, popular English words from Wikipedia and US television and movies, and other common patterns like dates, repeats (`aaa`), sequences (`abcd`), keyboard patterns (`qwertyuiop`), and l33t speak.
 
